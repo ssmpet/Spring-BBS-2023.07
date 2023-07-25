@@ -26,7 +26,7 @@ public class BasicController {
 		// /WEB-INF/view/basic/basic1.jsp
 		return "basic/basic1";
 	}
-	
+	   
 	@ResponseBody
 	@RequestMapping("/basic2")
 	public String basic2() {
