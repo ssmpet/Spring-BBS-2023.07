@@ -36,7 +36,7 @@ public class BasicController {
 	
 	@RequestMapping("/basic3")
 	public String basic3(Model model) {
-		
+
 		model.addAttribute("filename", "basic3.jsp");
 		model.addAttribute("message", "Model 객체를 통해서 데이터가 전달");
 		List<String> fruits = new ArrayList<>();
@@ -94,5 +94,38 @@ public class BasicController {
 	@PostMapping("/basic8")
 	public String basic8Post(String id, String pwd) {
 		return "<h1>id : " + id + ", pwd : " + pwd + "</h1>";		
+	}
+	
+	@GetMapping("/cal")
+	public String basicCal() {
+		return "basic/cal";
+	}
+	
+	@PostMapping("/cal")
+	public String basicCalPost(int num1, int num2, String op, Model model) {
+		
+		double result = 0.;
+		switch (op) {
+		case "+":
+			result  = num1 + num2;
+			break;
+		case "-":
+			result  = num1 - num2;
+			break;
+		case "*":
+			result  = num1 * num2;
+			break;
+		case "/":
+			result  = (double) num1 / num2;
+			break;
+		}
+
+		model.addAttribute("num1", num1);
+		model.addAttribute("num2", num2);
+		model.addAttribute("op", op);
+		model.addAttribute("result", result);
+		
+		return "basic/cal";
+		
 	}
 }
