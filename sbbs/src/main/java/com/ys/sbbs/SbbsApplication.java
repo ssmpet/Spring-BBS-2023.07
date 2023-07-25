@@ -9,7 +9,6 @@ import com.ys.sbbs.entity.Student;
 public class SbbsApplication {
 
 	public static void main(String[] args) {
-		Student st = new Student();
 
 		SpringApplication.run(SbbsApplication.class, args);
 	}

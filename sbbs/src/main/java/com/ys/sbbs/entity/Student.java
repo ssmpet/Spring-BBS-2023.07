@@ -23,7 +23,7 @@ public class Student {
 	private int sid;
 	private String name;
 	private LocalDate regDate;
-  
+	
 /***	
 	public Student() { } @NoArgsConstructor lombok
 	public Student(int sid, String name, LocalDate regDate) { @AllArgsConstructor
