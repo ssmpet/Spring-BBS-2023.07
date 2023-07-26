@@ -10,15 +10,13 @@ public interface UserService {
 	public static final int WRONG_PASSWORD = 1;
 	public static final int UID_NOT_EXIST = 2;
 
-	Connection getConnection();
-
 	int getUserCount();
 	
 	User getUser(String uid);
 	
 	List<User> getUserList(int page);
 	
-	void registerUser(User user);
+	void insertUser(User user);
 	
 	void updateUser(User user);
 	

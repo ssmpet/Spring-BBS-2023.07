@@ -1,8 +1,8 @@
 package com.ys.sbbs.service;
 
-import java.sql.Connection;
 import java.util.List;
 
+import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,12 +12,6 @@ import com.ys.sbbs.entity.User;
 @Service
 public class UserServiceMySQLImpl implements UserService{
 	@Autowired private UserDaoMySQL userDao;
-
-	@Override
-	public Connection getConnection() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	@Override
 	public int getUserCount() {
@@ -39,34 +33,34 @@ public class UserServiceMySQLImpl implements UserService{
 	}
 
 	@Override
-	public void registerUser(User user) {
-		// TODO Auto-generated method stub
-		
+	public void insertUser(User user) {
+		userDao.insertUser(user);		
 	}
 
 	@Override
 	public void updateUser(User user) {
-		// TODO Auto-generated method stub
-		
+		userDao.updateUser(user);
 	}
 
 	@Override
 	public void updateUserPassword(String pwd, String uid) {
-		// TODO Auto-generated method stub
-		
+		userDao.updateUserPassword(pwd, uid);
 	}
 
 	@Override
 	public void deleteUser(String uid) {
-		// TODO Auto-generated method stub
-		
+		userDao.deleteUser(uid);
 	}
 
 	@Override
 	public int login(String uid, String pwd) {
-		// TODO Auto-generated method stub
-		return 0;
+		User user = userDao.getUser(uid);
+		if (user == null)
+			return UID_NOT_EXIST;
+		else if (BCrypt.checkpw(pwd, user.getPwd()))
+			return CORRECT_LOGIN;
+		else
+			return WRONG_PASSWORD;
 	}
-	
 
 }
