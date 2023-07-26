@@ -20,14 +20,14 @@
 				    <div class="col-2"></div>
 				    <div class="col-7">
 				       
-				       <form action="/bbs/user/update" method="post" enctype="multipart/form-data">
+				       <form action="/sbbs/user/update" method="post" enctype="multipart/form-data">
 		                    <table class="table table-borderless text-center">
 		                    	<input type="hidden" name="uid" value="${user.uid}">
 		                    	<input type="hidden" name="filename" value="${user.profile}">
 			                    <tr>
 			                        <td style="width:25%"><label class="col-form-label">사용자 ID</label></td>
 			                        <td style="width:60%"><input type="text" name="uid" class="form-control" value="${user.uid}" disabled></td>
-			                        <td><input class="btn btn-primary" type="button" value="패스워드 변경" onclick="location.href='/bbs/user/updatePwd?uid=${user.uid}'"></td>
+			                        <td><input class="btn btn-primary" type="button" value="패스워드 변경" onclick="location.href='/sbbs/user/updatePwd/${user.uid}'"></td>
 			                    </tr>
 			                    <tr>
 			                        <td><label class="col-form-label">이름</label></td>

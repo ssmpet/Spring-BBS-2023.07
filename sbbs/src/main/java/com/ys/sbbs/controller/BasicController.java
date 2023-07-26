@@ -124,7 +124,7 @@ public class BasicController {
 		model.addAttribute("num2", num2);
 		model.addAttribute("op", op);
 		model.addAttribute("result", result);
-		
+
 		return "basic/cal";
 		
 	}

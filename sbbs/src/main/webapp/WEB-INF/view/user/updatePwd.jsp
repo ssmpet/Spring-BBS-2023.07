@@ -18,7 +18,7 @@
 				<div class="row mt-5">
 				    <div class="col-2"></div>
 				    <div class="col-6">
-			           <form action="/bbs/user/updatePwd" method="post">
+			           <form action="/sbbs/user/updatePwd" method="post">
 		                    <table class="table table-borderless text-center">
 		                    	<input type="hidden" name="uid" value="${uid}">
 			                    <tr>
@@ -36,7 +36,7 @@
 			                    <tr>
 			                        <td colspan="2" style="text-align: center;">
 			                            <input class="btn btn-primary ms-5" type="submit" value="수정">
-			                            <input class="btn btn-secondary ms-2" type="button" value="돌아가기" onclick="location.href='/bbs/user/update?uid=${uid}'">
+			                            <input class="btn btn-secondary ms-2" type="button" value="돌아가기" onclick="location.href='/sbbs/user/update/${uid}'">
 			                        </td>
 			                    </tr>
 			                </table>

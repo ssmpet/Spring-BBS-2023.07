@@ -26,7 +26,7 @@ public interface UserDaoMySQL {
 			+ "default, default, #{profile}, #{addr})")
 	void insertUser(User user);
 	
-	@Update("update users set uname=#{uname}, pwd=#{pwd}, email=#{email},"
+	@Update("update users set uname=#{uname}, email=#{email},"
 			+ " profile=#{profile}, addr=#{addr} where uid=#{uid}")
 	void updateUser(User user);
 	

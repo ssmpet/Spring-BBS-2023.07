@@ -41,14 +41,14 @@
 	            		<td>
 	            			<%-- 본인만이 수정권한이 있음 --%>
 	            			<c:if test="${uid eq user.uid}">
-	            				<a href="/bbs/user/update?uid=${user.uid}"><i class="fas fa-user-edit"></i></a>
+	            				<a href="/sbbs/user/update/${user.uid}"><i class="fas fa-user-edit"></i></a>
 	            			</c:if>
 	            			<c:if test="${uid ne user.uid}">
 	            				<a href="#" class="disabled-link"><i class="fas fa-user-edit"></i></a>
 	            			</c:if>
 	            			<%-- 관리자만이 삭제권한이 있음 --%>
 	            			<c:if test="${uid eq 'admin' }">
-	            				<a href="/bbs/user/delete?uid=${user.uid}"><i class="fas fa-user-minus ms-1"></i></a>
+	            				<a href="/sbbs/user/delete/${user.uid}"><i class="fas fa-user-minus ms-1"></i></a>
 	            			</c:if>
 	            			<c:if test="${uid ne 'admin' }">
 	            				<a href="#" class="disabled-link"><i class="fas fa-user-minus ms-1"></i></a>
@@ -60,7 +60,7 @@
 		         <%-- 페이지 네이션 --%>
 		        <ul class="pagination justify-content-center">
 		        <c:if test="${currentUserPage gt 10 }">
-		        	<li class="page-item"><a class="page-link" href="/bbs/user/list?page=${startPage-1}">&laquo; </a></li>
+		        	<li class="page-item"><a class="page-link" href="/sbbs/user/list/${startPage-1}">&laquo; </a></li>
 		        </c:if>
 		        <c:if test="${currentUserPage le 10 }">
 		          	<li class="page-item"><a class="page-link" href="#">&laquo; </a></li>
@@ -68,12 +68,12 @@
 		        	
 		        <c:forEach var="page" items="${pageList}">
 		        	<li class="page-item ${(currentUserPage eq page) ? 'active' : ''}">
-		        		<a class="page-link" href="/bbs/user/list?page=${page}">${page}</a>
+		        		<a class="page-link" href="/sbbs/user/list/${page}">${page}</a>
 		        	</li>
 				</c:forEach>
 				
 				<c:if test="${totalPages gt endPage }">
-		        	<li class="page-item"><a class="page-link" href="/bbs/user/list?page=${endPage+1}">  &raquo;</a></li>
+		        	<li class="page-item"><a class="page-link" href="/sbbs/user/list/${endPage+1}">  &raquo;</a></li>
 		        </c:if>
 		        <c:if test="${totalPages eq endPage }">
 		        	<li class="page-item"><a class="page-link" href="#">  &raquo;</a></li>
