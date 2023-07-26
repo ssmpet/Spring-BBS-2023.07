@@ -1,0 +1,9 @@
+package com.ys.sbbs.entity;
+
+import java.time.LocalDate;
+
+public class Student {
+	private int sid;
+	private String name;
+	private LocalDate regDate;
+}

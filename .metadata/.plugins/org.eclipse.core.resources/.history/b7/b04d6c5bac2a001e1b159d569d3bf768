@@ -1,0 +1,5 @@
+package com.ys.sbbs.entity;
+
+public class Student {
+	
+}

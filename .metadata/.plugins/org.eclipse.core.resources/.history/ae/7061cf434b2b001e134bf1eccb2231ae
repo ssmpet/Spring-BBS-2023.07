@@ -1,0 +1,18 @@
+package com.ys.sbbs.service;
+
+import java.sql.Connection;
+import java.util.List;
+
+import com.ys.sbbs.entity.User;
+
+public interface UserService {
+	
+	Connection getConnection();
+	User getUser(String uid);
+	int getUserCount();
+	void registerUser(User user);
+	void deleteUser(String uid);
+	void updateUser(User user);
+	void updateUserPassword(String pwd, String uid);
+	List<User> getUserList(int page);
+}

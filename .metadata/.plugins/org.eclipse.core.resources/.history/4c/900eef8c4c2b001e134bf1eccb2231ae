@@ -1,0 +1,10 @@
+package com.ys.sbbs.db;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserDao {
+
+	@Select("")
+	public int getUserCount();
+}

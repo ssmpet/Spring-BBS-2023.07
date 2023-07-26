@@ -1,0 +1,12 @@
+package com.ys.sbbs.service;
+
+import java.util.List;
+
+import com.ys.sbbs.entity.User;
+
+public interface UserService {
+	
+	Connection getConnection();
+	List<User> getUserList(int page);
+	int getUserCount();
+}

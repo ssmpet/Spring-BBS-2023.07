@@ -1,0 +1,6 @@
+package com.ys.sbbs.db;
+
+public interface UserDao {
+
+	
+}

@@ -1,0 +1,5 @@
+package com.ys.sbbs.service;
+
+public interface UserService {
+
+}
