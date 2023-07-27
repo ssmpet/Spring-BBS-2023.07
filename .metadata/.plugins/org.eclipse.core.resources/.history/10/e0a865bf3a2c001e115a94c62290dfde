@@ -1,0 +1,21 @@
+package com.ys.sbbs.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ys.sbbs.service.BoardService;
+
+@Controller
+@RequestMapping
+public class BoardController {
+	@Autowired private BoardService boardService;
+	@Value("${spring.servlet.multipart.location}") private String uploadDir;
+	
+	public static final int LIST_PER_PAGE = 10;		// 한 페이지당 글 목록의 갯수
+	public static final int PAGE_PER_SCREEN = 10;	// 한 화면에 표시되는 페이지 갯수
+	public static final String UPLOAD_PATH = uploadDir + "/upload/";
+	
+	
+}

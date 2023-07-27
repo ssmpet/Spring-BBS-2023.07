@@ -1,0 +1,10 @@
+package com.ys.sbbs.service;
+
+import com.ys.sbbs.entity.Board;
+
+public interface BoardService {
+
+	int getBoardCount(String field, String query);
+	
+	Board getBoard(int bid);
+}

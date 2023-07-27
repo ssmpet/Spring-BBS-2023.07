@@ -1,0 +1,17 @@
+package com.ys.sbbs.entity;
+
+import java.time.LocalDateTime;
+
+public class Board {
+	private int bid;
+	private String uid;
+	private String title;
+	private String content;
+	private LocalDateTime modTime;
+	private int viewCount;
+	private int replyCount;
+	private int isDeleted;
+	private String files;
+	private String uname;
+	
+}

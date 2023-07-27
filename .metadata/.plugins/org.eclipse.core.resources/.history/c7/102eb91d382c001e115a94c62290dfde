@@ -1,0 +1,8 @@
+package com.ys.sbbs.service;
+
+public interface BoardService {
+
+	public int getBoardCount(String field, String query);
+	
+	
+}

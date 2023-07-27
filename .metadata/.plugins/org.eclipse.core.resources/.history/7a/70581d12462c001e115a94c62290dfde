@@ -1,0 +1,25 @@
+package com.ys.sbbs.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/reply")
+public class ReplyController {
+
+	@Autowired ReplyService replyService;
+	@Autowired BoardService boardService;
+
+	@PostMapping("/write")
+	public String writeProc(int bid, String uid, String comment, HttpSession session) {
+		String sessionUid = (String) session.getAttribute("uid");
+		int isMine = sessionUid.equals(uid) ? 1 : 0;
+		Reply reply = new Reply(comment, isMine, sessionUid, bid);
+		
+		replyService.insertReply(reply);
+		boardService.increaseReplyCount(bid);
+		
+		return "redirect:/board/detail/" + bid + "/" + uid + "?option=DNI";
+	}
+	
+}

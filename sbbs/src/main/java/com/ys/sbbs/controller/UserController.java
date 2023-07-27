@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -33,12 +32,9 @@ public class UserController {
 
 	@Autowired private UserService userService;
 	@Value("${spring.servlet.multipart.location}") private String uploadDir;
-	@Autowired ServletContext servletContext;
 	
-	public static final int LIST_PER_PAGE = 10;		// 한 페이지당 사용자 목록의 갯수
-	public static final int PAGE_PER_SCREEN = 10;	// 한 화면에 표시되는 페이지 갯수
-	public static final String TODAY_QUOTE = "/static/data/todayQuote.txt";
-	public static final String PROFILE_PATH = "/static/profile/";
+//	public static final String TODAY_QUOTE = "/static/data/todayQuote.txt";
+//	public static final String PROFILE_PATH = "/static/profile/";
 
 	@GetMapping("/register")
 	public String registerForm() {
@@ -126,7 +122,7 @@ public class UserController {
 			session.setAttribute("stateMsg", stateMsg);
 			
 			model.addAttribute("msg", user.getUname() + "님 환영합니다.");
-			model.addAttribute("url", "/sbbs/user/list/1");
+			model.addAttribute("url", "/sbbs/board/list?p=1&f=&q=");
 			
 		} else if (result == UserService.WRONG_PASSWORD) {
 			
@@ -155,9 +151,9 @@ public class UserController {
 		model.addAttribute("userList", list);
 		
 		int totalUsers = userService.getUserCount();
-		int totalPages = (int) (Math.ceil(totalUsers / (double) LIST_PER_PAGE));
-		int startPage = (int) Math.ceil((page - 0.5) / PAGE_PER_SCREEN - 1) * PAGE_PER_SCREEN + 1;
-		int endPage = Math.min(totalPages, startPage + PAGE_PER_SCREEN - 1);
+		int totalPages = (int) (Math.ceil(totalUsers / (double) userService.LIST_PER_PAGE));
+		int startPage = (int) Math.ceil((page - 0.5) / userService.PAGE_PER_SCREEN - 1) * userService.PAGE_PER_SCREEN + 1;
+		int endPage = Math.min(totalPages, startPage + userService.PAGE_PER_SCREEN - 1);
 		
 		List<String> pageList = new ArrayList<String>();
 		for (int i=startPage; i<=endPage; i++) {

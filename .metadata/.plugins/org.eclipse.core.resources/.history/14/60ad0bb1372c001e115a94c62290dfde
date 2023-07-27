@@ -1,0 +1,13 @@
+package com.ys.sbbs.entity;
+
+public class Replay {
+	private int rid;
+	private String comment;
+	private LocalDateTime regTime;
+	private int isMine;
+	private String uid;
+	private int bid;
+	private String uname;
+	
+	
+}
