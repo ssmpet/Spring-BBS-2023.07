@@ -20,10 +20,10 @@
 				    <div class="col-6">
 			           <form action="/sbbs/user/updatePwd" method="post">
 		                    <table class="table table-borderless text-center">
-		                    	<input type="hidden" name="uid" value="${uid}">
+		                    	<input type="hidden" name="uid" value="${sessUid}">
 			                    <tr>
 			                        <td style="width:25%"><label class="col-form-label">사용자 ID</label></td>
-			                        <td style="width:60%"><input type="text" name="uid" class="form-control" value="${uid}" disabled></td>
+			                        <td style="width:60%"><input type="text" name="uid" class="form-control" value="${sessUid}" disabled></td>
 			                    </tr>
 			                    <tr>
 			                        <td><label class="col-form-label">패스워드</label></td>
@@ -36,7 +36,7 @@
 			                    <tr>
 			                        <td colspan="2" style="text-align: center;">
 			                            <input class="btn btn-primary ms-5" type="submit" value="수정">
-			                            <input class="btn btn-secondary ms-2" type="button" value="돌아가기" onclick="location.href='/sbbs/user/update/${uid}'">
+			                            <input class="btn btn-secondary ms-2" type="button" value="돌아가기" onclick="location.href='/sbbs/user/update/${sessUid}'">
 			                        </td>
 			                    </tr>
 			                </table>

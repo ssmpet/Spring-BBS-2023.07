@@ -31,7 +31,7 @@
 				    <div class="col-1"></div>
 				    <div class="col-10">
 				       
-				       <form action="/bbs/board/write" method="post" enctype="multipart/form-data">
+				       <form action="/sbbs/board/write" method="post" enctype="multipart/form-data">
 		                    <table class="table table-borderless text-center">
 			                    <tr>
 			                        <td style="width:10%"><label class="col-form-label">제목</label></td>

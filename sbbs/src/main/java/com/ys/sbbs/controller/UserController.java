@@ -103,7 +103,7 @@ public class UserController {
 		if (result == UserService.CORRECT_LOGIN) {
 
 			User user = userService.getUser(uid);
-			session.setAttribute("uid", uid);
+			session.setAttribute("sessUid", uid);
 			session.setAttribute("uname", user.getUname());
 			session.setAttribute("email", user.getEmail());
 			session.setAttribute("profile", user.getProfile());

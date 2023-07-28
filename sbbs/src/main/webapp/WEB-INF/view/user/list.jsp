@@ -40,17 +40,17 @@
 	            		<td>${user.addr}</td>
 	            		<td>
 	            			<%-- 본인만이 수정권한이 있음 --%>
-	            			<c:if test="${uid eq user.uid}">
+	            			<c:if test="${sessUid eq user.uid}">
 	            				<a href="/sbbs/user/update/${user.uid}"><i class="fas fa-user-edit"></i></a>
 	            			</c:if>
-	            			<c:if test="${uid ne user.uid}">
+	            			<c:if test="${sessUid ne user.uid}">
 	            				<a href="#" class="disabled-link"><i class="fas fa-user-edit"></i></a>
 	            			</c:if>
 	            			<%-- 관리자만이 삭제권한이 있음 --%>
-	            			<c:if test="${uid eq 'admin' }">
+	            			<c:if test="${sessUid eq 'admin' }">
 	            				<a href="/sbbs/user/delete/${user.uid}"><i class="fas fa-user-minus ms-1"></i></a>
 	            			</c:if>
-	            			<c:if test="${uid ne 'admin' }">
+	            			<c:if test="${sessUid ne 'admin' }">
 	            				<a href="#" class="disabled-link"><i class="fas fa-user-minus ms-1"></i></a>
 	            			</c:if>
 	            		</td>

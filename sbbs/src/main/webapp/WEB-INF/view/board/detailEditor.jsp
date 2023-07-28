@@ -22,13 +22,13 @@
 			<div class="col-sm-9">
 				 <h3><strong>게시글 상세 조회</strong>
                     <span style="font-size: 0.6em;">
-                        <a href="/bbs/board/list?p=${currentBoardPage}&f=${field}&q=${query}" class="ms-5""><i class="fas fa-list-ul"></i> 목록</a>
+                        <a href="/sbbs/board/list?p=${currentBoardPage}&f=${field}&q=${query}" class="ms-5""><i class="fas fa-list-ul"></i> 목록</a>
                     <%-- 본인만 수정 가능 --%>
-                    <c:if test="${uid eq board.uid}">
-                    	<a href="/bbs/board/update?bid=${board.bid}&f=${field}&q=${query}" class="ms-3"><i class="far fa-edit"></i> 수정</a>
-                        <a href="/bbs/board/delete?bid=${board.bid}&f=${field}&q=${query}" class="ms-3"><i class="fas fa-trash-alt"></i> 삭제</a>
+                    <c:if test="${sessUid eq board.uid}">
+                    	<a href="/sbbs/board/update/${board.bid}?&f=${field}&q=${query}" class="ms-3"><i class="far fa-edit"></i> 수정</a>
+                        <a href="/sbbs/board/delete/${board.bid}?&f=${field}&q=${query}" class="ms-3"><i class="fas fa-trash-alt"></i> 삭제</a>
                     </c:if>
-                    <c:if test="${uid ne board.uid}">
+                    <c:if test="${sessUid ne board.uid}">
                     	<a href="#" class="ms-3 disabled-link"><i class="far fa-edit"></i> 수정</a>
                     	<a href="#" class="ms-3 disabled-link"><i class="fas fa-trash-alt"></i> 삭제</a>
                     </c:if>

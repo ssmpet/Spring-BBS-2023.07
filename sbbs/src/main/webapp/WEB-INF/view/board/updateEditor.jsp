@@ -33,7 +33,7 @@
 				    <div class="col-1"></div>
 				    <div class="col-10">
 				       
-				       	<form action="/bbs/board/update" method="post" enctype="multipart/form-data">
+				       	<form action="/sbbs/board/update" method="post" enctype="multipart/form-data">
 							<input type="hidden" name="bid" value="${board.bid}">
 		                    <table class="table table-borderless text-center">
 			                    <tr>
@@ -75,7 +75,7 @@
 	<%@ include file="../common/bottom.jspf" %>
 	<script>
 		CKEDITOR.replace('content', {
-			filebrowserImageUploadUrl: '/bbs/file/imageUpload', 
+			filebrowserImageUploadUrl: '/sbbs/file/imageUpload', 
 			filebrowserUploadMethod: 'form', 
 	        height:300, width:700
 	    });
