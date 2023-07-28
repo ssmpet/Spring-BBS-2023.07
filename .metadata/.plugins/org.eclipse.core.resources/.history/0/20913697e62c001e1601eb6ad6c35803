@@ -1,0 +1,11 @@
+package com.ys.sbbs.filter;
+
+import javax.servlet.Filter;
+import javax.servlet.http.HttpFilter;
+
+/*
+ * Servlet Filter
+ */
+public class SbbsFilter extends HttpFilter implements Filter{
+
+}

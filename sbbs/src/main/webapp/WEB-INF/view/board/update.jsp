@@ -58,7 +58,7 @@
 			                    </tr>
 			                    <tr>
 			                        <td colspan="3" style="text-align: center;">
-			                            <input class="btn btn-primary" type="submit" value="등록">
+			                            <input class="btn btn-primary" type="submit" value="수정">
 			                            <input class="btn btn-secondary" type="reset" value="취소">
 			                        </td>
 			                    </tr>

@@ -3,12 +3,14 @@
  */
 
  $(document).ready(function() {
+	
 	$('#stateMsgBtn').click(function(e) {
 		$('#stateMsgInput').attr({'class': 'mt-2'});
 		$('#stateInput').attr({value: $('#stateMsg').text()});
 		
 	}) 
 	$('#stateMsgSubmit').click(changeStateMsg);
+	$('#getWeatherBtn').click(changeWeather);
  });
  
  function changeStateMsg() {
@@ -24,4 +26,20 @@
 			 $('#stateMsg').html(stateInputVal);
 		 }		 
 	 });
+}
+
+
+function changeWeather() {
+
+	let addr = $('#addr').val();
+	alert(addr);
+
+	$.ajax({
+		type: 'GET',
+		url: '/sbbs/aside/weather',
+		data: {addr: addr},
+		success: function(e) {
+			$('#weather').html(e);
+		}		 
+	});
 }

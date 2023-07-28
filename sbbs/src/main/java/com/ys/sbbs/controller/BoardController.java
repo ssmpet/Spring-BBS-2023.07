@@ -70,7 +70,8 @@ public class BoardController {
 	
 	@GetMapping("/write")
 	public String writeForm() {
-		return "board/write";
+//		return "board/write";
+		return "board/writeEditor";
 	}
 	
 	@PostMapping("/write")
@@ -97,7 +98,6 @@ public class BoardController {
 		String files = ju.listToJson(fileList);
 		
 		Board board = new Board(sessionUid, title, content, files);
-		System.out.println(board);
 		boardService.insertBoard(board);
 		
 		return "redirect:/board/list?p=1&f=&q=";
@@ -127,9 +127,9 @@ public class BoardController {
 		model.addAttribute("replyList", replyList);
 		model.addAttribute("field", field);
 		model.addAttribute("query", query);
-		
-	
-		return "board/detail";
+
+//		return "board/detail";
+		return "board/detailEditor";
 	}
 	
 	@GetMapping("/update/{bid}")
@@ -137,27 +137,29 @@ public class BoardController {
 							@RequestParam(name="f", defaultValue="title") String field,
 							@RequestParam(name="q", defaultValue="") String query,
 							HttpSession session, Model model) {
-		
+
 		List<String> fileList = null;
 		JsonUtil ju = new JsonUtil();
-		
+
 		Board board = boardService.getBoard(bid);
 		board.setTitle(board.getTitle().replace("\"", "&quot;"));
 		fileList = ju.jsonToList(board.getFiles());
-		
+
 		model.addAttribute("board", board);
 		session.setAttribute("fileList", fileList);
-	
-		return "board/update";
+
+//		return "board/update";
+		return "board/updateEditor";
 		
 	}
 	
 	@PostMapping("/update")
-	public String updatePorc(MultipartHttpServletRequest req, HttpSession session, Model model) {
+	public String updatePorc(MultipartHttpServletRequest req, HttpSession session) {
 		
 		int bid = Integer.parseInt(req.getParameter("bid"));
 		String title = req.getParameter("title");
 		String content = req.getParameter("content");
+		String sessionUid = (String) session.getAttribute("sessUid");
 		List<String> fileList = (List<String>)session.getAttribute("fileList");
 
 		if (fileList != null && fileList.size() > 0) {
@@ -176,9 +178,11 @@ public class BoardController {
 		
 		List<MultipartFile> fileParts =  req.getFiles("files");
 		for (MultipartFile part: fileParts) {
+			
+			if (part.getContentType().contains("octet-stream"))	
+				continue;
+		
 			String filename = part.getOriginalFilename();
-			if (filename == null || filename.equals("")) continue;
-
 			try {
 				part.transferTo(new File(uploadDir + "upload/" + filename));
 			} catch (Exception e) {
@@ -188,14 +192,13 @@ public class BoardController {
 			fileList.add(filename);
 		}
 
-		JsonUtil ju = new JsonUtil();
-		String files = ju.listToJson(fileList);
+		String files = new JsonUtil().listToJson(fileList);
 		Board board = new Board(bid, title, content, files);
 		boardService.updateBoard(board);
 
 		session.setAttribute("currentBoardPage", 1);
 
-		return "redirect:/board/detail/" + bid + "/" + session.getAttribute("sessUid");
+		return "redirect:/board/detail/" + bid + "/" + sessionUid + "?option=DNI";
 		
 	}
 	
