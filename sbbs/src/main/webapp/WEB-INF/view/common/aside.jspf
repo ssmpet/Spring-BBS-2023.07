@@ -22,8 +22,9 @@
     </div>
     <div class="mt-5">
         <i class="fa fa-envelope me-2"></i><a href="#">${email}</a><br>
-        <img src="/sbbs/img/addr.png" height="16" class="me-2" id="addr">${addr}
-        <a href="#" id="getWeatherBtn" ><span class="badge bg-secondary">날씨</span></a>
+        <img src="/sbbs/img/addr.png" height="16" class="me-1">
+        <span id="addr">${addr}</span>
+        <a href="javascript:changeWeather();" ><span class="badge bg-secondary">날씨</span></a>
         <div id="weather"></div>
     </div>
     <button class="btn btn-sm btn-outline-primary mt-3">Edit Profile</button>

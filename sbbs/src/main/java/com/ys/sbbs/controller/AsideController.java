@@ -24,11 +24,11 @@ public class AsideController {
 		session.setAttribute("stateMsg", stateMsg);
 		return "0";
 	}
-	
+
 	@ResponseBody
 	@GetMapping("/weather")
 	public String getWeather(String addr, HttpSession session) {
-		System.out.println(addr);
+
 		String place = addr + "청";
 		String roadAddr = asideUtil.getRoadAddr(place);
 		List<String> geoCode = asideUtil.getGeoCode(roadAddr);

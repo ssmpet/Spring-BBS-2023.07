@@ -9,8 +9,15 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/fbb7139956.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Gasoek+One&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<%  
+	response.setHeader("Cache-Control","no-store");  
+	response.setHeader("Pragma","no-cache");  
+	response.setDateHeader("Expires",0);  
+	if (request.getProtocol().equals("HTTP/1.1"))        
+		response.setHeader("Cache-Control", "no-cache");
+%>  
 <style>
 	* { font-family: 'Noto Sans KR', sans-serif; }
 	a { text-decoration: none; color: #0517b1;}
 </style>
-<script src="/sbbs/js/aside.js?v=1"></script>
+<script src="/sbbs/js/aside.js"></script>

@@ -10,7 +10,7 @@
 		
 	}) 
 	$('#stateMsgSubmit').click(changeStateMsg);
-	$('#getWeatherBtn').click(changeWeather);
+
  });
  
  function changeStateMsg() {
@@ -31,8 +31,7 @@
 
 function changeWeather() {
 
-	let addr = $('#addr').val();
-	alert(addr);
+	let addr = $('#addr').text();
 
 	$.ajax({
 		type: 'GET',
