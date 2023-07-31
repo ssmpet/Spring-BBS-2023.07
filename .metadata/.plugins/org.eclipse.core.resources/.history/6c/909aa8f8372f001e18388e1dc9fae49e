@@ -1,0 +1,11 @@
+package com.ys.sbbs.utility;
+
+public class UtilTest {
+
+	public static void main(String[] args) {
+		AsideUtil au = new AsideUtil();
+		au.getRoadAddr("경기도 수원시 장안구청");
+
+	}
+
+}

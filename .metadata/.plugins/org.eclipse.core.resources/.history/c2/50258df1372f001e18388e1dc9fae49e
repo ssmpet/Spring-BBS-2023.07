@@ -1,0 +1,10 @@
+package com.ys.sbbs.utility;
+
+public class UtilTest {
+
+	public static void main(String[] args) {
+		AsideUtil au = new asideUtil();
+
+	}
+
+}
