@@ -79,7 +79,7 @@
                         </div>
                 	</c:if>
                 </c:forEach>
-                        <form class="form-inline" action="/bbs/reply/write" method="post">
+                        <form class="form-inline" action="/sbbs/reply/write" method="post">
                             <input type="hidden" name="bid" value="${board.bid}">
                             <input type="hidden" name="uid" value="${board.uid}">
                             <input type="hidden" name="f" value="${field}">

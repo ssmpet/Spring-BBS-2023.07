@@ -1,7 +1,0 @@
-package com.ys.sbbs.entity;
-
-public class Student {
-	private int sid;
-	private String name;
-	private LocalDate regDate;
-}

@@ -1,0 +1,42 @@
+package com.ys.sbbs.utility;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class JsonUtil {
+
+	public String listToJson(List<String> list) {
+		
+		String jsonStr = null;
+		
+		JSONObject jObj = new JSONObject();
+		jObj.put("list", list);
+
+		return jObj.toString();
+	}
+	
+	public List<String> jsonToList(String jStr) {
+		List<String> list = new ArrayList<String>();
+		
+		JSONParser parser = new JSONParser();
+		try {
+			System.out.println("jsonToList 1");
+			JSONObject jObj = (JSONObject) parser.parse(jStr);
+			System.out.println("jsonToList 2");
+			JSONArray jArr = (JSONArray) jObj.get("list");
+			System.out.println("jsonToList 3");
+			list = (List<String>) jArr;
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return list;
+	}
+	
+	
+}

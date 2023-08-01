@@ -1,0 +1,11 @@
+package com.ys.sbbs.db;
+
+public class OracleTest {
+
+	public static void main(String[] args) {
+		String driver = "oracle.jdbc.driver.OracleDriver";
+		String url = 
+
+	}
+
+}

@@ -109,6 +109,7 @@ public class BoardController {
 						@RequestParam(name="q", defaultValue="") String query,
 						String option,
 						HttpSession session, Model model) {
+
 		// 본인이 조회한 경우 또는 댓글 작성후에는 조회수를 증가시키지 않음
 		String sessionUid = (String) session.getAttribute("sessUid");
 		if (!uid.equals(sessionUid) && (option==null || option.equals("")))
@@ -140,14 +141,13 @@ public class BoardController {
 
 		List<String> fileList = null;
 		JsonUtil ju = new JsonUtil();
-
 		Board board = boardService.getBoard(bid);
 		board.setTitle(board.getTitle().replace("\"", "&quot;"));
 		fileList = ju.jsonToList(board.getFiles());
 
 		model.addAttribute("board", board);
 		session.setAttribute("fileList", fileList);
-
+		
 //		return "board/update";
 		return "board/updateEditor";
 		
@@ -229,4 +229,6 @@ public class BoardController {
 		return "redirect:/board/list?p=" + session.getAttribute("currentBoardPage") + "&f=" + field + "&q=" + query;
 		
 	}
+	
+	
 }

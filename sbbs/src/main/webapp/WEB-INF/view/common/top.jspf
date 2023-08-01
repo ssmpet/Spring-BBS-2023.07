@@ -29,7 +29,7 @@
 			</li>               	
 		</c:if>
             <%--c:if test="${uid eq 'admin' }">
-            	<a class="nav-link" href="/bbs/board/testBoard">임시 게시판 등록</a>
+            	<a class="nav-link" href="/sbbs/board/testBoard">임시 게시판 등록</a>
             </c:if--%>
         </ul>
         <c:if test="${ not empty sessUid }">

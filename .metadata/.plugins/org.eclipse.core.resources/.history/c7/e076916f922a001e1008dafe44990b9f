@@ -1,8 +1,0 @@
-package com.ys.sbbs.controller;
-
-
-
-@org.springframework.web.bind.annotation.RestController
-public class RestController {
-	
-}

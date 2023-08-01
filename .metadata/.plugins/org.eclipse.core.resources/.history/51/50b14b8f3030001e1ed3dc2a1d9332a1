@@ -1,0 +1,5 @@
+package com.ys.sbbs.service;
+
+public class UserServiceOracleImpl implements UserService {
+
+}

@@ -1,0 +1,34 @@
+package com.ys.sbbs.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.util.List;
+
+import com.ys.sbbs.entity.Board;
+import com.ys.sbbs.entity.Reply;
+import com.ys.sbbs.entity.User;
+
+public class OracleTest {
+
+	public static void main(String[] args) {
+		
+		OracleDaoTest oDao = new OracleDaoTest();
+		oDao.getUserAllCount();
+
+		
+		List<User> list = oDao.getListUser(0);
+		list.forEach(x -> System.out.println(x));
+		
+		List<Reply> rList = oDao.getReplyList(1001);
+		rList.forEach(x->System.out.println(x));
+		
+		Board board = oDao.getBoard(1006);
+		
+		oDao.updateBoard(board);
+
+		
+	}
+
+}

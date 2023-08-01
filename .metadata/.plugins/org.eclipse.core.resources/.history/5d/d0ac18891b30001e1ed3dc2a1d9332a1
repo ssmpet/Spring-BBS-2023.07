@@ -1,0 +1,28 @@
+package com.ys.sbbs.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class OracleTest {
+
+	public static void main(String[] args) {
+		String driver = "oracle.jdbc.driver.OracleDriver";
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
+		String user = "ysuser";
+		String password = "yspass";
+		
+		Connection conn = null;
+		
+		try {
+			Class.forName(driver);
+			System.out.println("");
+			conn = DriverManager.getConnection(url, user, password);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

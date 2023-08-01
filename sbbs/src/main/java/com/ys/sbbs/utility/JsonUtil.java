@@ -20,11 +20,14 @@ public class JsonUtil {
 	}
 	
 	public List<String> jsonToList(String jStr) {
+		
+		if (jStr == null) return null;
+		
 		List<String> list = new ArrayList<String>();
 		
 		JSONParser parser = new JSONParser();
 		try {
-			
+
 			JSONObject jObj = (JSONObject) parser.parse(jStr);
 			JSONArray jArr = (JSONArray) jObj.get("list");
 			list = (List<String>) jArr;
