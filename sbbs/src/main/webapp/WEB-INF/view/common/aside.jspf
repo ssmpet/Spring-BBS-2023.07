@@ -27,5 +27,7 @@
         <a href="javascript:changeWeather();" ><span class="badge bg-secondary">날씨</span></a>
         <div id="weather"></div>
     </div>
-    <button class="btn btn-sm btn-outline-primary mt-3">Edit Profile</button>
+    <c:if test="${ not empty sessUid}">
+    	<button class="btn btn-sm btn-outline-primary mt-3" onclick="location.href='/sbbs/user/update/${sessUid}'">Edit Profile</button>
+    </c:if>
 </div>

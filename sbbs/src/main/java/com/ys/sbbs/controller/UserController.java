@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.mindrot.jbcrypt.BCrypt;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -29,13 +31,15 @@ import com.ys.sbbs.utility.AsideUtil;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-
+	private final Logger log = LoggerFactory.getLogger(getClass());
+	
 	@Autowired private UserService userService;
 	@Value("${spring.servlet.multipart.location}") private String uploadDir;
 	
 //	public static final String TODAY_QUOTE = "/static/data/todayQuote.txt";
 //	public static final String PROFILE_PATH = "/static/profile/";
 
+	
 	@GetMapping("/register")
 	public String registerForm() {
 		return "user/register";
@@ -63,7 +67,8 @@ public class UserController {
 			model.addAttribute("url", "/sbbs/user/register");
 		} else {
 
-			if ( filePart != null ) {
+//			if ( filePart.getSize() > 0) {
+			if ( filePart.getContentType().contains("image")) {
 				filename = filePart.getOriginalFilename();
 
 //				String path = this.getClass().getResource("/").getPath() + PROFILE_PATH;
@@ -120,17 +125,19 @@ public class UserController {
 			AsideUtil au = new AsideUtil();
 			String stateMsg = au.getTodayQuote(quoteFile);
 			session.setAttribute("stateMsg", stateMsg);
-			
+
+			// 환영 메세지
+			log.info("Info Login: {}, {}", uid, user.getUname());
 			model.addAttribute("msg", user.getUname() + "님 환영합니다.");
 			model.addAttribute("url", "/sbbs/board/list?p=1&f=&q=");
-			
+
 		} else if (result == UserService.WRONG_PASSWORD) {
-			
+
 			model.addAttribute("msg", "잘못되 패스워드 입니다. 다시 입력하세요.");
 			model.addAttribute("url", "/sbbs/user/login");
-			
+
 		}else {
-			
+
 			model.addAttribute("msg", "ID가 없습니다. 회원 가입 페이지로 이동합니다.");
 			model.addAttribute("url", "/sbbs/user/register");
 		}
@@ -191,8 +198,8 @@ public class UserController {
 		User user = null;
 		String filename = null;
 		
-		if (!filePart.isEmpty()) {		// 새로운 이미지로 변경
-			
+		if ( filePart.getContentType().contains("image") ) {		// 새로운 이미지로 변경
+
 			if (oldFilename != null) {	// 기존 이미지가 있으면 이미지 삭제
 
 				File oldFile = new File(uploadDir + "profile/" + oldFilename);

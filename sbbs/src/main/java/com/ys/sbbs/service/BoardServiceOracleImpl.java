@@ -27,11 +27,12 @@ public class BoardServiceOracleImpl implements BoardService{
 
 	@Override
 	public List<Board> listBoard(String field, String query, int page) {
-		
+	
+		int maxrow = page * 10;
 		int offset = (page - 1) * 10;
 		query = "%" + query + "%";
-		
-		return boardDao.listBoard(field, query, offset);
+
+		return boardDao.listBoard(field, query, maxrow, offset);
 	}
 
 	@Override

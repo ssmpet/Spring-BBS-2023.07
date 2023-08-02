@@ -19,18 +19,21 @@ public interface UserDaoOracle {
 	User getUser(String uid);
 	
 	@Select("select u.* from users u"
-			+ "		where isDeleted=0 order by regDate desc, \"uid\""
+			+ "	where isDeleted=0 order by regDate desc, \"uid\""
 			+ " offset #{offset} rows fetch next 10 rows only")
 	List<User> getUserList(int offset);
 
-	@Insert("insert into users values(#{uid}, #{pwd}, #{uname}, #{email}, "
-			+ "default, default, #{profile}, #{addr})")
+	@Insert("insert into users values(#{uid}, #{pwd}, #{uname}, "
+			+ " #{email}, default, default, "
+			+ " #{profile, jdbcType=VARCHAR},"
+			+ " #{addr, jdbcType=VARCHAR})")
 	void insertUser(User user);
-	
+
 	@Update("update users set uname=#{uname}, email=#{email},"
-			+ " \"profile\"=#{profile}, addr=#{addr} where \"uid\"=#{uid}")
+			+ " \"profile\"=#{profile, jdbcType=VARCHAR},"
+			+ " addr=#{addr, jdbcType=VARCHAR} where \"uid\"=#{uid}")
 	void updateUser(User user);
-	
+
 	@Update("update users set isDeleted=1 where \"uid\"=#{uid}")
 	void deleteUser(String uid);
 	
