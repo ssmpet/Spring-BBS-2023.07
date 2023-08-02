@@ -1,0 +1,15 @@
+package com.ys.sbbs.entity;
+
+public class Anniversary {
+
+	private int aid;
+	private String aname;
+	private String adate;
+	private int isHoliday;
+	
+	public Anniversary(String aname, String adate, int isHoliday) {
+		this.aname = aname;
+		this.adate = adate;
+		this.isHoliday = isHoliday;
+	}
+}

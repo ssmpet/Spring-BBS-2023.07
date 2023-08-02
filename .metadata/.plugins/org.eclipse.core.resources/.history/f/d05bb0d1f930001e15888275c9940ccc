@@ -1,0 +1,8 @@
+package com.ys.sbbs.dbo;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface AnniversaryDaoOracle {
+
+}

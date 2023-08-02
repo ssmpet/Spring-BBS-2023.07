@@ -5998,3 +5998,405 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:08:03.295
 !MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:18:04.060
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:18:10.957
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:18:17.642
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:25:18.122
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:25:27.032
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:25:56.698
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:26:03.376
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-02 12:28:36.753
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:28:47.593
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:28:51.893
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:36:13.779
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:39:32.464
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:42:51.795
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:43:03.413
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 12:43:13.496
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 13:53:03.797
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 13:58:02.471
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 13:58:56.142
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 13:59:03.965
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 13:59:28.830
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:00:31.177
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:01:10.520
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:06:17.130
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:06:38.008
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:07:11.443
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:28:34.244
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:29:22.489
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:29:35.533
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:29:41.136
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:29:45.416
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:29:57.219
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:30:37.406
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:31:30.548
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:31:46.080
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:31:51.412
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:32:12.772
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:33:24.338
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:33:39.737
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:33:53.785
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:34:26.530
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:34:37.303
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:34:42.567
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:54:36.142
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:54:45.125
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:54:58.699
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:55:05.418
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:55:36.527
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:55:45.663
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:55:54.150
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:56:09.037
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:56:22.247
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:56:34.151
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:56:40.474
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:56:48.913
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:56:53.562
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:57:13.458
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:57:34.195
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:58:01.439
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:58:23.689
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:58:39.032
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:58:48.193
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:58:51.356
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:59:13.715
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 14:59:27.901
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:00:02.408
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:00:39.184
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:01:01.511
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:01:03.624
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:01:20.094
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:01:32.243
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:01:41.270
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-02 15:01:49.850
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:01:53.029
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:02:39.538
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:02:45.222
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:02:54.445
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:03:11.382
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:03:24.712
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:04:06.123
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:04:23.845
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:04:39.368
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:04:53.555
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:05:13.495
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-02 15:05:34.552
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:05:35.743
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:06:21.296
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:07:20.038
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:09:25.117
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:09:41.094
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:09:57.074
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:11:02.063
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:11:12.012
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:11:38.395
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:12:08.096
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:13:07.660
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:13:10.954
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:13:25.694
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:13:30.972
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:13:53.414
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-02 15:19:16.997
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:30:04.853
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-02 15:30:04.860
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:30:49.394
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:31:22.909
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:31:43.169
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:32:10.114
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:32:21.757
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:32:38.893
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:33:01.406
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:33:15.944
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 15:33:33.851
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:01:21.904
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:02:31.070
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:11:49.231
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:11:54.252
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:12:01.621
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:12:09.793
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:12:14.301
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:15:06.552
+!MESSAGE Classpath changed for project: sbbs

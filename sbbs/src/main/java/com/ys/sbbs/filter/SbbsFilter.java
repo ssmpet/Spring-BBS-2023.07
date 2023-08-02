@@ -35,12 +35,16 @@ public class SbbsFilter extends HttpFilter implements Filter{
  			session.setAttribute("menu", "board");
  		else if (uri.contains("user"))
  			session.setAttribute("menu", "user");
+ 		else if (uri.contains("schedule"))
+ 			session.setAttribute("menu", "schedule");
  		else 
  			session.setAttribute("menu", "");
  		
  		String sessionUid = (String) session.getAttribute("sessUid");
  		String[] urlPatterns = {"/board", "/aside", "/file", 
- 								"/user/list", "/user/update", "/user/delete", "/user/logout" }; 
+ 								"/user/list", "/user/update", "/user/delete", "/user/logout",
+ 								"/schedule/list"
+ 								}; 
  		for (String routing: urlPatterns) {
  			if (uri.contains(routing)) {
  				if (sessionUid == null || sessionUid.equals("")) {

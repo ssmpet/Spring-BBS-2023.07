@@ -6,7 +6,7 @@ import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ys.sbbs.db.UserDaoMySQL;
+import com.ys.sbbs.dbo.UserDaoMySQL;
 import com.ys.sbbs.entity.User;
 
 @Service

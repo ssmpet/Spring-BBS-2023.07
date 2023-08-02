@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-import com.ys.sbbs.db.ReplyDaoOracle;
+import com.ys.sbbs.dbo.ReplyDaoOracle;
 import com.ys.sbbs.entity.Reply;
 
-@Primary
-@Service
+//@Primary
+//@Service
 public class ReplyServiceOracleImpl implements ReplyService{
 
 	@Autowired ReplyDaoOracle replyDao;

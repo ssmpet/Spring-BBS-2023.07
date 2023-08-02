@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-import com.ys.sbbs.db.UserDaoOracle;
+import com.ys.sbbs.dbo.UserDaoOracle;
 import com.ys.sbbs.entity.User;
 
 @Primary

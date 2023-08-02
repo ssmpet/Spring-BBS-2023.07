@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ys.sbbs.db.ReplyDaoMySQL;
+import com.ys.sbbs.dbo.ReplyDaoMySQL;
 import com.ys.sbbs.entity.Reply;
 
 @Service

@@ -113,7 +113,8 @@ public class UserController {
 			session.setAttribute("email", user.getEmail());
 			session.setAttribute("profile", user.getProfile());
 			session.setAttribute("addr", user.getAddr());
-			
+			session.setAttribute("currentUserPage", 1);
+
 			// 상태 메세지
 			// 나중에 참고할 것
 //			/D:/Springworks/sbbs/target/classes/static/data/todayQuote.txt
@@ -141,7 +142,7 @@ public class UserController {
 			model.addAttribute("msg", "ID가 없습니다. 회원 가입 페이지로 이동합니다.");
 			model.addAttribute("url", "/sbbs/user/register");
 		}
-		
+
 		return "common/alertMsg";
 	}
 	
@@ -197,7 +198,7 @@ public class UserController {
 		
 		User user = null;
 		String filename = null;
-		
+
 		if ( filePart.getContentType().contains("image") ) {		// 새로운 이미지로 변경
 
 			if (oldFilename != null) {	// 기존 이미지가 있으면 이미지 삭제
@@ -226,7 +227,6 @@ public class UserController {
 		session.setAttribute("email", email);
 		session.setAttribute("profile", filename);
 		session.setAttribute("addr", addr);
-		
 		return "redirect:/user/list/" + session.getAttribute("currentUserPage");
 	}
 	

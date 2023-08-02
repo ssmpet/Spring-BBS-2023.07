@@ -1,0 +1,6 @@
+package com.ys.sbbs.service;
+
+@Service
+public class ScheduleServiceMySQLImpl {
+
+}

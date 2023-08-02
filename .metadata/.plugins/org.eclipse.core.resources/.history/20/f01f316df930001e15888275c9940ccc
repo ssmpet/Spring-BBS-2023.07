@@ -1,0 +1,27 @@
+package com.ys.sbbs.service;
+
+import java.util.List;
+
+import com.ys.sbbs.entity.Anniversary;
+
+public class AnniversaryServiceMySQLImpl implements AnniversaryService{
+
+	@Override
+	public List<Anniversary> getDayAnnivList(String sdate) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Anniversary> getAnnivDays(String start, String end) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insert(Anniversary anniversary) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-import com.ys.sbbs.db.BoardDaoOracle;
+import com.ys.sbbs.dbo.BoardDaoOracle;
 import com.ys.sbbs.entity.Board;
 
 @Primary

@@ -1,0 +1,5 @@
+package com.ys.sbbs.dbo;
+
+public interface AnniversaryDao {
+
+}

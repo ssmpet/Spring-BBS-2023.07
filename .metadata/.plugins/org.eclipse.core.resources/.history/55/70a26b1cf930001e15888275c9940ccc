@@ -1,0 +1,10 @@
+package com.ys.sbbs.entity;
+
+public class Anniversary {
+
+	private int aid;
+	private String aname;
+	private String adate;
+	private int isHoliday;
+	
+}
