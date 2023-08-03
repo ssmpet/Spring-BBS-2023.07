@@ -17,7 +17,7 @@ public interface AnniversaryDaoOracle {
 	List<Anniversary> getAnnivList(String start, String end);
 	
 	@Insert("insert into anniversary values"
-			+ "  (default, #{aname}, #{adate}, #{isHoliday})")
+			+ "  (default, #{aname, jdbcType=VARCHAR}, #{adate, jdbcType=VARCHAR}, #{isHoliday})")
 	void insert(Anniversary anniversary);
 	
 }

@@ -12,7 +12,7 @@
 	<style>
 		td { text-align: center;  width: 14.28%;}
 	</style>
-	<script src="/sbbs/js/calendar.js"></script>
+	<script src="/sbbs/js/calendar.js?v=1"></script>
 </head>
 <body>
 
@@ -35,8 +35,11 @@
                         <a href="/sbbs/schedule/calendar/right2"><i class="fa-solid fa-angles-right"></i></a>
                     </div>
                     <div>
-                    	<a href="#" onclick="addAnniversary()"><i class="fa-solid fa-pen me-3"></i></a>
-                    	<a href="/sbbs/schedule/list/1"><i class="fa-solid fa-table-list"></i></a>
+                    	<a href="#" onclick="addAnniversary()" title="기념일 추가"><i class="fa-solid fa-pen me-3"></i></a>
+                    	<c:if test="${sessUid eq 'admin'}">
+                    		<a href="#" onclick="addAnnivList()" title="국경일 추가"><i class="fa-solid fa-calendar-plus me-3"></i></a>
+                    	</c:if>
+                    	<a href="/sbbs/schedule/list/1" title="스케줄 목록"><i class="fa-solid fa-table-list"></i></a>
                     </div>
                 </div>
                 <table class="table table-bordered mt-2">
@@ -265,6 +268,56 @@
 	                            <td>
 	                                <label for="annivDate">날짜</label>
 	                                <input class="form-control" type="date" id="annivDate" name="annivDate">
+	                            </td>
+	                        </tr>
+	                        <tr>
+	                            <td style="text-align: right;">
+	                                <button class="btn btn-primary me-2" type="submit">제출</button>
+	                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">종료</button>
+	                            </td>
+	                        </tr>
+	                    </table>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="modal" id="addAnnivListModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">공휴일/24절기 추가</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+			
+				<!-- Modal body -->
+				<div class="modal-body">
+					<form action="/sbbs/schedule/insertAnnivList" method="post">
+						<table class="table table-borderless">
+	                        <tr>
+	                            <td>
+	                            	<input type="radio" class="form-check-input" name="option" value="공휴일" checked> 공휴일
+	                            	<input type="radio" class="form-check-input ms-3" name="option" value="24절기"> 24절기
+	                            </td>
+	                        </tr>
+	                        <tr>
+	                            <td>
+	                                <label for="year">년도</label>
+	                                <select class="form-select" id="year" name="year">
+	                                	<option>2020</option>
+	                                	<option>2021</option>
+	                                	<option>2022</option>
+	                                	<option selected>2023</option>
+	                                	<option>2024</option>
+	                                	<option>2025</option>
+	                                	<option>2026</option>
+	                                	<option>2027</option>
+	                                	<option>2028</option>
+	                                	<option>2029</option>
+	                                </select>
 	                            </td>
 	                        </tr>
 	                        <tr>

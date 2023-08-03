@@ -1,0 +1,98 @@
+package com.ys.sbbs.utility;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class SchedUtil {
+
+	public boolean isLeapYear(int year) {
+		if (year % 400 == 0)
+			return true;
+		if (year % 100 == 0)
+			return false;
+		if (year % 4 == 0)
+			return true;
+		return false;
+	}
+	
+	public List<String> genTime() {
+		List<String> list = new ArrayList<>();
+		for (int hour=0; hour<24; hour++)
+			for (int min=0; min<60; min+=30)
+				list.add(String.format("%02d:%02d", hour, min));
+		return list;
+	}
+	
+	public void getHolidays() {
+		String holidaysApiKey = "03C11xYVL6rdPsvMSfWlqM7H%2B4oAPg5G%2BqC1wW%2FWESerr0GXnGnjI6gVaSGdXkg4jQGUJlZnPhGq%2BtMe9HcS6Q%3D%3D";
+		
+		String base_url = "http://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/";
+
+		String[] f_list = {"getRestDeInfo", "getAnniversaryInfo", "get24DivisionsInfo", "getSundryDayInfo"};
+		String param1 = "?_type=json&numOfRows=80&solYear=";
+		
+		String weatherStr = null;
+		String findYear = "2023";
+		
+		String apiUrl = base_url + f_list[0] + param1 + findYear + "&ServiceKey=" + holidaysApiKey;
+		
+		try {
+			URL url = new URL(apiUrl);
+			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream(), "utf-8"));
+			
+			String line = null, result = "";
+			while ( (line=br.readLine( )) != null) {
+				result += line;
+			}
+			br.close();
+			
+			JSONParser parser = new JSONParser();
+			JSONObject obj = (JSONObject) parser.parse(result);
+			JSONObject response = (JSONObject) obj.get("response");
+			JSONObject body = (JSONObject) response.get("body");
+			JSONObject items = (JSONObject) body.get("items");
+			
+			JSONArray item = (JSONArray) items.get("item");
+
+			System.out.println(item.size());
+//			List<String, String> map = new ArrayList<>();
+			
+			for (int i = 0; i < item.size(); i++ ) {
+				JSONObject data = (JSONObject) item.get(i);
+				System.out.println(data);
+				String dateName = (String) data.get("dateName");
+				if (dateName.equals("1월1일")) dateName = "신정";
+				if (dateName.equals("기독탄신일")) dateName = "크리스마스";
+				String locdate =  String.valueOf( (long) data.get("locdate") );
+				int isHoliday = 0;
+				if ( ((String) data.get("isHoliday")).equals("Y") ) 
+					isHoliday = 1;
+				System.out.println("locdate = " + locdate + ", dateName = " + dateName);			
+			}
+
+			
+//			JSONArray weather = (JSONArray) obj.get("weather");
+//			String desc = (String) weatherItem.get("description");
+//			String iconCode = (String) weatherItem.get("icon");
+//
+//			JSONObject main = (JSONObject) obj.get("main");
+//			double temp =  (double) main.get("temp");
+//			String tempStr = String.format("%.1f", temp);
+//			
+//			String iconUrl = icon_deps + iconCode +".png";
+//			weatherStr = "<img src=\""+ iconUrl + "\" height=\"28\">" + desc 
+//					   + "            온도: " + tempStr + "&#8451";
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -6637,3 +6637,826 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:21:49.488
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:22:12.133
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:23:46.031
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:24:10.762
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:24:15.113
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:26:23.124
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:26:25.218
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:27:04.263
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:27:26.018
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:27:52.751
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:32:23.593
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:33:45.039
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:33:53.386
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:34:12.071
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:34:23.149
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:34:25.289
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:35:17.778
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:35:59.583
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:36:03.728
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:36:20.770
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:47:59.695
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:50:01.185
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:50:05.366
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:51:03.520
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:51:24.497
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:51:55.149
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:52:44.979
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:54:21.560
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:54:29.654
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:56:13.579
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:57:24.481
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:57:31.359
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:57:37.576
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:57:42.009
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:58:22.573
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:58:31.960
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:59:15.399
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:59:28.324
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:59:37.508
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:59:54.530
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:00:06.781
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:00:36.235
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:00:44.707
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:00:52.513
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:01:17.636
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:01:51.059
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:02:10.652
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:02:16.899
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:02:59.193
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:03:36.459
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:04:39.109
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:05:01.061
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:05:24.486
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:05:40.304
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:08:47.738
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:09:41.307
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:11:08.214
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:12:35.209
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:12:50.215
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:14:07.500
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:14:22.426
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:14:38.454
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:14:57.213
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:16:21.267
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:16:49.614
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:16:55.519
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:17:14.033
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:17:25.249
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:19:31.617
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:20:28.466
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:21:07.414
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:21:08.522
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:22:01.860
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:22:43.861
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:23:01.747
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:24:02.365
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:24:08.573
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:24:29.406
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:24:39.201
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:24:47.161
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:25:05.250
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:25:15.661
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:25:27.377
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:26:38.731
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:29:26.063
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:30:08.558
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:30:27.909
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:32:15.116
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:32:32.388
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:33:08.886
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:33:17.327
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:33:36.077
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 11:49:07.471
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.ui 4 0 2023-08-03 12:28:08.231
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:401)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:369)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.switchPerspective(PartServiceImpl.java:658)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:83)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.lambda$0(PerspectiveSwitcher.java:537)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.widgetSelected(PerspectiveSwitcher.java:535)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:465)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.setOnboarding(StackRenderer.java:254)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.subscribePerspectiveSwitched(StackRenderer.java:245)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 68 more
+
+!ENTRY org.eclipse.ui 4 0 2023-08-03 12:28:11.216
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:401)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:369)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.switchPerspective(PartServiceImpl.java:658)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:83)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.lambda$0(PerspectiveSwitcher.java:537)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.widgetSelected(PerspectiveSwitcher.java:535)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:465)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.setOnboarding(StackRenderer.java:254)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.subscribePerspectiveSwitched(StackRenderer.java:245)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 68 more
+
+!ENTRY org.eclipse.ui 4 0 2023-08-03 12:28:13.458
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:401)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:369)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.switchPerspective(PartServiceImpl.java:658)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:83)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.lambda$0(PerspectiveSwitcher.java:537)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.widgetSelected(PerspectiveSwitcher.java:535)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:465)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.setOnboarding(StackRenderer.java:254)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.subscribePerspectiveSwitched(StackRenderer.java:245)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 68 more
+
+!ENTRY org.eclipse.ui 4 0 2023-08-03 12:29:37.659
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:401)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:369)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.switchPerspective(PartServiceImpl.java:641)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:83)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.lambda$0(PerspectiveSwitcher.java:537)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.widgetSelected(PerspectiveSwitcher.java:535)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:465)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.setOnboarding(StackRenderer.java:254)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.subscribePerspectiveSwitched(StackRenderer.java:245)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 68 more
+
+!ENTRY org.eclipse.ui 4 0 2023-08-03 12:29:40.209
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:401)
+	at org.eclipse.e4.ui.workbench.UIEvents.publishEvent(UIEvents.java:369)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.switchPerspective(PartServiceImpl.java:658)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:83)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.lambda$0(PerspectiveSwitcher.java:537)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$3.widgetSelected(PerspectiveSwitcher.java:535)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:465)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.setOnboarding(StackRenderer.java:254)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.subscribePerspectiveSwitched(StackRenderer.java:245)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 68 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 12:40:44.720
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 12:41:40.784
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 12:42:31.007
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 12:42:45.061
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 12:42:49.562
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 13:36:30.811
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 14:37:38.655
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 14:38:02.787
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 14:38:39.045
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 14:39:00.520
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 14:39:13.773
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 14:47:21.942
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 14:47:26.403
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:03:29.568
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:04:17.642
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:04:26.571
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:05:02.914
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:05:58.540
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:06:10.389
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:06.779
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:09.904
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:17.693
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:22.655
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:42.610
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:47.951
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:08:58.252
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:58.388
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:10:14.967
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:10:17.623
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:10:25.379
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:10:47.496
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:11:04.670
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:11:09.865
+!MESSAGE Classpath changed for project: sbbs

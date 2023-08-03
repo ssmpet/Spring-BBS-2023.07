@@ -31,6 +31,7 @@ public class ScheduleController {
 	
 	@Autowired private ScheduleService schedService;
 	@Autowired private AnniversaryService annivService;
+	@Autowired private SchedUtil schedUtil;
 	
 	@GetMapping(value = {"/calendar/{arrow}", "/calendar"})
 	public String calendar(@PathVariable(required = false) String arrow, HttpSession session, Model model) {
@@ -121,7 +122,6 @@ public class ScheduleController {
 			calendar.add(week);
 		}
 		
-		SchedUtil schedUtil = new SchedUtil();
 		model.addAttribute("calendar", calendar);
 		model.addAttribute("today", today + "(" + date + ")");
 		model.addAttribute("year", year);
@@ -218,7 +218,7 @@ public class ScheduleController {
 		List<String> pageList = new ArrayList<>();
 		for (int i = 1; i <= totalPages; i++)
 			pageList.add(String.valueOf(i));
-		
+
 		model.addAttribute("pageList", pageList);
 		model.addAttribute("today", today + "(" + date + ")");
 		model.addAttribute("year", year);
@@ -226,4 +226,13 @@ public class ScheduleController {
 		model.addAttribute("schedList", list);
 		return "schedule/list";
 	}
+	
+	@PostMapping("/insertAnnivList")
+	public String insertAnnivList(String option, int year) {
+		List<Anniversary> list = schedUtil.getAnnivList(option, year);
+		for (Anniversary anniv: list)
+			annivService.insert(anniv);
+		return "redirect:/schedule/calendar";
+	}
+	
 }

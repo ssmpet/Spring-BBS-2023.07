@@ -19,15 +19,15 @@ public interface ScheduleDaoOracle {
 	List<Schedule> getSchedList(String uid, String startDate, String endDate);
 	
 	@Insert("INSERT INTO schedule VALUES"
-			+ " (DEFAULT, #{uid}, #{sdate}, #{title}, #{place},"
-			+ " #{startTime}, #{endTime}, #{isImportant}, #{memo})")
+			+ " (DEFAULT, #{uid}, #{sdate}, #{title}, #{place, jdbcType=VARCHAR},"
+			+ " #{startTime, jdbcType=TIMESTAMP}, #{endTime, jdbcType=TIMESTAMP}, #{isImportant}, #{memo, jdbcType=VARCHAR})")
 	void insert(Schedule schedule);
 	
 	@Select("select * from schedule where sid=#{sid}")
 	Schedule getSchedule(int sid);
 	
-	@Update("update schedule set \"uid\"=#{uid}, sdate=#{sdate}, title=#{title}, place=#{place},"
-			+ "  startTime=#{startTime}, endTime=#{endTime}, isImportant=#{isImportant}, memo=#{memo}"
+	@Update("update schedule set \"uid\"=#{uid}, sdate=#{sdate}, title=#{title}, place=#{place, jdbcType=VARCHAR},"
+			+ "  startTime=#{startTime, jdbcType=TIMESTAMP}, endTime=#{endTime, jdbcType=TIMESTAMP}, isImportant=#{isImportant}, memo=#{memo, jdbcType=VARCHAR}"
 			+ "  where sid=#{sid}")
 	void update(Schedule schedule);
 	

@@ -38,8 +38,8 @@
                         <span class="badge bg-primary mx-2">${year}.${month}</span>
                     </div>
                     <div>
-                    	<a href="#" onclick="addAnniversary()"><i class="fa-solid fa-pen me-3"></i></a>
-                    	<a href="/sbbs/schedule/calendar"><i class="fa-solid fa-calendar-days"></i></a>
+                    	<a href="#" onclick="addAnniversary()" title="기념일 추가"><i class="fa-solid fa-pen me-3"></i></a>
+                    	<a href="/sbbs/schedule/calendar" title="일정표"><i class="fa-solid fa-calendar-days"></i></a>
                     </div>
                 </div>
                 <table class="table table-sm mt-2">
