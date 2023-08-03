@@ -2,13 +2,15 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
+<c:set var="height" value="${600 / numberOfWeeks}"></c:set>
+<c:set var="todaySdate" value="${fn:substring(today,0,4)}${fn:substring(today,5,7)}${fn:substring(today,8,10)}"></c:set>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<%@ include file="../common/head.jspf" %>
 	<style>
-		td { text-align: center;}
-		.disabled-link { pointer-events: none;}
+		td { text-align: center;  width: 14.28%;}
 	</style>
 	<script src="/sbbs/js/calendar.js"></script>
 </head>
@@ -38,7 +40,7 @@
                     </div>
                 </div>
                 <table class="table table-bordered mt-2">
-                    <tr>
+                    <tr style="text-align:center">
                         <th class="text-danger">일</th>
                         <th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
                         <th class="text-primary">토</th>
@@ -68,7 +70,7 @@
                            	</c:if>
                             </div>
                         <c:forEach var="sched" items="${day.schedList}" varStatus="loop">
-                        	<div class="${loop.first ? 'mt-1' : ''}" style="font-size: 12px;" onclick="schedClick(${sched.sid})">
+                        	<div class="${loop.first ? 'mt-1' : ''}" style="font-size: 12px; text-align:left;" onclick="schedClick(${sched.sid})">
 	                        	${fn:substring(sched.startTime, 11, 16)}
 	                        <c:if test="${sched.isImportant eq 1}">
 	                        	<strong>${sched.title}</strong>

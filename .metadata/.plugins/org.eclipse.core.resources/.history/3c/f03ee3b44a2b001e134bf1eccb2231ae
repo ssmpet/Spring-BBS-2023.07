@@ -1,6 +1,0 @@
-package com.ys.sbbs.service;
-
-public interface UserService {
-	
-	List<User> getUserList(int page);
-}

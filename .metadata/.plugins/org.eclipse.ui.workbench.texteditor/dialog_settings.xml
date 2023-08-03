@@ -6,18 +6,26 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="uid"/>
+		<item key="selection" value="addModal"/>
 		<list key="findhistory">
+			<item value="addModal"/>
+			<item value="&quot;addModal&quot;"/>
+			<item value="deleteSchedule"/>
 			<item value="uid"/>
+			<item value="session"/>
+			<item value="schedUtil"/>
+			<item value="menu"/>
+			<item value="currentUserPage"/>
+			<item value="\r\n"/>
 			<item value="roadAddrKey"/>
 			<item value="detail"/>
-			<item value="session"/>
 			<item value="JsonUtil"/>
 			<item value="boardService"/>
 			<item value="servletContext"/>
 			<item value="filename = filePart.getOriginalFilename();"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="\&quot;uid\&quot;"/>
 		</list>
 	</section>

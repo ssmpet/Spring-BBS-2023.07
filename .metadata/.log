@@ -6400,3 +6400,240 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-02 16:15:06.552
 !MESSAGE Classpath changed for project: sbbs
+!SESSION 2023-08-03 08:56:26.963 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-08-03 08:56:30.960
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-08-03 08:57:10.599
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-03 08:57:10.599
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-03 08:57:18.307
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\YONSAI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 08:57:21.583
+!MESSAGE Boot project ADDED: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 08:57:21.583
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 08:57:21.654
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-03 08:57:21.717
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Springworks/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1691020641717
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 08:57:21.718
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-03 08:57:21.786
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 7752
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-08-03 08:57:21.988
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:36:08.245
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:36:27.109
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:36:35.797
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:36:42.597
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:37:28.803
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:37:36.270
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-08-03 09:37:58.217
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:101)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:394)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:38:08.032
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:38:12.726
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:38:45.131
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:38:48.824
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:38:54.200
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:39:04.364
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:41:02.537
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:42:28.944
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:44:06.513
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:44:41.860
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:47:02.837
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:47:06.240
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:47:18.968
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:47:39.043
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:47:49.150
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:47:54.834
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:48:09.418
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:49:08.288
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:49:21.007
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:49:24.182
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 09:49:29.010
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:01:30.909
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:05:19.967
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:05:35.145
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:06:58.067
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:07:03.883
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:07:11.112
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 10:08:13.457
+!MESSAGE Classpath changed for project: sbbs
+
+!ENTRY org.eclipse.jface 2 0 2023-08-03 10:19:22.448
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-03 10:19:22.448
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)

@@ -8,7 +8,6 @@
 	<%@ include file="../common/head.jspf" %>
 	<style>
 		td { text-align: center;}
-		.disabled-link { pointer-events: none;}
 	</style>
 	 <script>
     	function addAnniversary() {
