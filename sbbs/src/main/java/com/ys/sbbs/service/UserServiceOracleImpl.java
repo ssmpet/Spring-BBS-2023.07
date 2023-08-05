@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 import com.ys.sbbs.dbo.UserDaoOracle;
 import com.ys.sbbs.entity.User;
 
-@Primary
-@Service
+//@Primary
+//@Service
 public class UserServiceOracleImpl implements UserService {
 	@Autowired UserDaoOracle userDao;
 	

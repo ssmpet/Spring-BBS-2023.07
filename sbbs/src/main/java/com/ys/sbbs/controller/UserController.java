@@ -130,7 +130,8 @@ public class UserController {
 			// 환영 메세지
 			log.info("Info Login: {}, {}", uid, user.getUname());
 			model.addAttribute("msg", user.getUname() + "님 환영합니다.");
-			model.addAttribute("url", "/sbbs/board/list?p=1&f=&q=");
+			model.addAttribute("url", "/sbbs/user/list/1");
+//			model.addAttribute("url", "/sbbs/board/list?p=1&f=&q=");
 
 		} else if (result == UserService.WRONG_PASSWORD) {
 

@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import com.ys.sbbs.dbo.BoardDaoOracle;
 import com.ys.sbbs.entity.Board;
 
-@Primary
-@Service
+//@Primary
+//@Service
 public class BoardServiceOracleImpl implements BoardService{
 	@Autowired BoardDaoOracle boardDao;
 

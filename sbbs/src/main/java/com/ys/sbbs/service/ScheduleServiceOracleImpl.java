@@ -13,8 +13,8 @@ import com.ys.sbbs.entity.Anniversary;
 import com.ys.sbbs.entity.SchDay;
 import com.ys.sbbs.entity.Schedule;
 
-@Primary
-@Service
+//@Primary
+//@Service
 public class ScheduleServiceOracleImpl implements ScheduleService{
 
 	@Autowired private ScheduleDaoOracle schedDao;

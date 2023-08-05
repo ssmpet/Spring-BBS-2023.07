@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import com.ys.sbbs.dbo.AnniversaryDaoOracle;
 import com.ys.sbbs.entity.Anniversary;
 
-@Primary
-@Service
+//@Primary
+//@Service
 public class AnniversaryServiceOracleImpl implements AnniversaryService{
 
 	@Autowired private AnniversaryDaoOracle annivDao;
